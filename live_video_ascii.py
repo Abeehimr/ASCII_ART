@@ -8,7 +8,7 @@ def settings():
     global height
     global ascii_chars
     height = int(input("ENTER NO OF PIXELS VETICALLY(detail of the art depends on it)(default=100)\n"))
-    x = int(input('ENTER SENSETIVITY OF DARK REGION(determine how much dark a color should be to not show)(range => 0 to 10)'))
+    x = int(input('ENTER SENSETIVITY OF DARK REGION(determine how much dark a color should be to not show)(range => 0 to 10)\n'))
     if x < 0: x = 0
     elif x > 10: x = 10
     ascii_chars = x*' '+ascii_chars
