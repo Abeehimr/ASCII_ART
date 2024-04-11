@@ -1,0 +1,5 @@
+image==1.5.33
+numpy==1.26.4
+opencv-python==4.9.0.80
+pillow==10.3.0
+python-xlib==0.33
